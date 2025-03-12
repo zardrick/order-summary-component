@@ -37,6 +37,7 @@ a {
   overflow: hidden;
   border-radius: 1.25rem;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
 }
 .order-summary__header {
   height: 10rem;
@@ -58,6 +59,7 @@ a {
 }
 .order-summary__description {
   margin-top: 1rem;
+  line-height: 1.65;
   font-size: 0.9375rem;
   font-weight: 600;
   color: hsl(224, 23%, 55%);
@@ -109,6 +111,7 @@ a {
   font-weight: 900;
   color: hsl(0, 0%, 100%);
   background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease-in-out;
 }
 .order-summary__button:hover {
