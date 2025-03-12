@@ -79,7 +79,7 @@ Going forward, I plan to:
 ## Author
 
 - Frontend Mentor - [@Zardrick](https://www.frontendmentor.io/profile/Zardrick)
-- Twitter - [@yourusername](https://www.twitter.com/zardrick1)
+- Twitter - [@Zardrick](https://www.twitter.com/zardrick1)
 
 ## Acknowledgments
 
