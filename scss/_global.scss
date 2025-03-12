@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: $spacing-md;
+  font-family: $font-family;
+  font-size: $font-size-medium;
+  font-weight: $font-medium;
+  color: $dark-blue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $pale-blue url("../images/pattern-background-mobile.svg") no-repeat top center / contain;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+}  
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 48rem){
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}
